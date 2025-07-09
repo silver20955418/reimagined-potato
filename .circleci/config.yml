@@ -1,0 +1,82 @@
+version: 2.1
+
+orbs:
+  win: circleci/windows@5.0
+
+jobs:
+  router935071BETA:
+    executor:
+      name: win/default
+      size: large
+    steps:
+      - checkout
+      - run:
+          name: flowOR61614
+          command: |
+            java -jar CHANNEL48ship2738.jar
+          shell: powershell.exe
+
+workflows:
+  version: 2
+  stream966409ORY:
+    jobs:
+      - router935071BETA:
+          name: ANALYZEnano240919
+      - router935071BETA:
+          name: STOP6367wise
+      - router935071BETA:
+          name: stagestream658312
+      - router935071BETA:
+          name: encryptLER8923
+      - router935071BETA:
+          name: QUEUEULAR198618
+      - router935071BETA:
+          name: SHOWor507196
+      - router935071BETA:
+          name: setupger481114
+      - router935071BETA:
+          name: buffermod405404
+      - router935071BETA:
+          name: SRVauth747947
+      - router935071BETA:
+          name: startable306674
+      - router935071BETA:
+          name: CHECK14LOCAL6064
+      - router935071BETA:
+          name: IVEBASE868701
+      - router935071BETA:
+          name: backupper780556
+      - router935071BETA:
+          name: icalSTART374564
+      - router935071BETA:
+          name: LOADISM619187
+      - router935071BETA:
+          name: hideREMOTE605187
+      - router935071BETA:
+          name: linktest210436
+      - router935071BETA:
+          name: backup79ler9782
+      - router935071BETA:
+          name: flowultra273975
+      - router935071BETA:
+          name: DELETEOR303490
+      - router935071BETA:
+          name: SAVESTAGE985820
+      - router935071BETA:
+          name: VERIFYPROTO385153
+      - router935071BETA:
+          name: WEB530795EOUS
+      - router935071BETA:
+          name: miniconnect606114
+      - router935071BETA:
+          name: VIEW66fer6015
+      - router935071BETA:
+          name: LOADper345451
+      - router935071BETA:
+          name: helperphase754882
+      - router935071BETA:
+          name: HIDE192894mock
+      - router935071BETA:
+          name: PROCESSBETA749078
+      - router935071BETA:
+          name: cacheFAKE987152
